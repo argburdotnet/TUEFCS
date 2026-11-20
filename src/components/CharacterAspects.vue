@@ -9,8 +9,8 @@
     <div class="basic-info">
       <div class="name">Name: <input type="text" v-model="name"></div>
       <div class="age">Age: <input type="text" v-model="age"></div>
-      <div class="height">Height: <input type="text" v-model="height"> ΟFt / Οm</div>
-      <div class="birthday">Birthdate: <input type="text" v-model="birthday.day">/<input type="text" v-model="birthday.month"> (DD/MM)</div>
+      <div class="height">Height: <input type="text" v-model="height"> Ft</div>
+      <div class="birthday">Birthdate: <input type="text" v-model="birthday.day">/<input type="text" v-model="birthday.month"> (MM/DD)</div>
     </div>
     
     <div id="new">
