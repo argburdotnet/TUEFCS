@@ -1,8 +1,8 @@
 {
   "name": "no-effort-character-sheet",
-  "version": "1.0.0",
-  "description": "No effort character sheet",
-  "author": "Andrea Boe Abrahamsen <andreaboeabrahamsen@gmail.com>",
+  "version": "1.0.1",
+  "description": "No effort character sheet remake",
+  "author": "Origial by Andrea Boe Abrahamsen, remade by Raven Hiraeth",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
