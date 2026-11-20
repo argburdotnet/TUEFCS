@@ -2,8 +2,7 @@
     "gender" : { "name" : "Gender", "type" : "radio", 
       "values" : [ 
         "Male", 
-        "Female", 
-        "" ]},
+        "Female" ] },
     "posture" : { "name" : "Posture", "type" : "radio", 
       "values" : [ 
         "Upright", 
@@ -20,6 +19,7 @@
         "Hearing aids", 
         "Braces or similar", 
         "Crutches or wheelchair", 
+        "N/A", 
         "" ] },
     "physical-condition" : { "name" : "Physical conditions", "type" : "check-box", 
       "values" : [ 
@@ -29,22 +29,33 @@
         "Deafness or muteness",
         "Missing limb or amputation",
         "Grave disease",
+        "N/A",
         "" ] },
     "mental-condition" : { "name" : "Mental conditions", "type" : "check-box", 
       "values" : [ 
         "Depression", 
         "Anxiety", 
         "Autism", 
-        "PTSD or ASD",
+        "PTSD",
         "Psychopathy or Sociopathy",
         "Panic disorder",
         "OCD",
+        "Addiction(s)"
         ""] },
+  "addiction" : { "name" : "Addictions", "type" : "check-box", 
+      "values" : [ 
+        "Narcotics", 
+        "Stimulants",
+        "Alcohol", 
+        "Nicotine or Weed", 
+        "Self-Harm",
+        "Caffeine",
+        "" ] },
     "residence" : { "name" : "Residence", "type" : "radio", 
       "values" : [ 
-        "Dorms or studio apartment", 
-        "City house", 
-        "Suburban house", 
+        "Dorms", 
+        "Apartment complex"
+        "house", 
         "Mansion or manor", 
         "Penthouse or yacht",
         "Trailer",
@@ -75,14 +86,14 @@
         "Crew cut/similar", 
         "Pixie cut/similar", 
         "Bob cut/similar", 
-        "Should-length",
+        "Shoulder-length",
         "Elbow-length",
-        "Hip-length or +",
+        "Hip-length or longer",
         "" ] },
-    "direct-family" : { "name" : "Directly family", "type" : "check-box", 
+    "direct-family" : { "name" : "Direct family", "type" : "check-box", 
       "values" : [ 
-        "Mother(s)", 
-        "Father(s)", 
+        "Mother", 
+        "Father", 
         "Brother(s)", 
         "Sister(s)",
         "Son(s)",
@@ -92,7 +103,7 @@
       "values" : [ 
         "Water", 
         "Alcohol", 
-        "Nature juice", 
+        "Juice", 
         "Coffee or tea",
         "Carbonated drinks" ] },
     "preferred-food" : { "name" : "Preferred food", "type" : "radio", 
@@ -127,7 +138,7 @@
         "" ] },
     "hair-texture" : { "name" : "Hair texture", "type" : "radio", 
       "values" : [ 
-        "Straigt", 
+        "Straight", 
         "Straight-wavy", 
         "Wavy", 
         "Wavy-curled",
@@ -159,6 +170,7 @@
         "Gymnastics",
         "Mind sports",
         "Extreme sports",
+        "N/A"
         "" ] },
     "self-discipline" : { "name" : "Self-discipline", "type" : "radio", 
       "values" : [ 
@@ -176,7 +188,7 @@
         "Picasso" ] },
     "luck" : { "name" : "Luck", "type" : "radio", 
       "values" : [ 
-        "Witchcraft", 
+        "Invincible", 
         "Steriotypical Irish", 
         "Average", 
         "Really?",
@@ -189,10 +201,11 @@
         "Light brown",
         "Blonde",
         "Ginger",
+        "W/ Highlights"
         "" ] },
     "strong point" : { "name" : "Strong point", "type" : "radio", 
       "values" : [ 
-        "Brute force", 
+        "Force", 
         "Agility", 
         "Stamina", 
         "Intelligence",
@@ -204,7 +217,7 @@
         "Could be better", 
         "Can't complain", 
         "Pretty good",
-        "Invincible"] },
+        "Basically Immortal"] },
     "usual-outfit" : { "name" : "Usual outfit", "type" : "radio", 
       "values" : [ 
         "Formal", 
@@ -212,6 +225,7 @@
         "Lazy", 
         "Sport casual",
         "Uniform",
+        "Revealing"
         "" ] },
     "easily-embarrassed" : { "name" : "Easily embarrassed", "type" : "radio", 
       "values" : [ 
@@ -245,6 +259,7 @@
         "Scrawny",
         "Curvy",
         "Fat/chubby",
+        "Slim",
         "" ] },
     "iq" : { "name" : "IQ", "type" : "radio", 
       "values" : [ 
@@ -290,6 +305,8 @@
         "Death",
         "Untimely death",
         "Ridicule",
+        "Claustrophobia",
+        "Germs",
         ""] },
     "skin-tone" : { "name" : "Skin tone", "type" : "radio", 
       "values" : [ 
@@ -314,6 +331,7 @@
         "Utilitarianism", 
         "Universal law", 
         "Religious",
+        "Doesn't care as long as it isn't something attrocious"
         ""] },
     "sense-of-humor" : { "name" : "Sense of humor", "type" : "radio", 
       "values" : [ 
@@ -340,15 +358,6 @@
         "Doesn't get drunk",
         "Doesn't drink",
         "" ] },
-    "vices" : { "name" : "Vices", "type" : "check-box", 
-      "values" : [ 
-        "Smoking", 
-        "Drinking", 
-        "Self-harm", 
-        "Illicit drugs",
-        "Prescription drugs", 
-        "Murder or tortur",
-        "" ] },
     "markings" : { "name" : "Markings", "type" : "check-box", 
       "values" : [ 
         "Scar(s)", 
@@ -360,7 +369,8 @@
       "values" : [ 
         "Vulgar", 
         "Basic", 
-        "Avarage", 
+        "So many cuss words",
+        "Average",
         "Polite",
         "Educated",
         "Pretentious",
@@ -381,6 +391,7 @@
         "Self smart",
         "Picture smart",
         "Language smart",
+        "Street smart",
         "Body smart" ] },
     "most-common-smile" : { "name" : "Most common smile", "type" : "radio", 
       "values" : [ 
@@ -389,13 +400,14 @@
         "Arrogant/smirk", 
         "Sadistic",
         "In love",
+        "Normal"
         "Literally doesn't smile",
         "" ] },
     "theme-color" : { "name" : "Theme color", "type" : "radio", 
       "values" : [ 
         "Black", 
         "Brown", 
-        "Darl blue", 
+        "Dark blue", 
         "Light blue",
         "Dark green",
         "Light green",
@@ -405,6 +417,7 @@
         "Pink",
         "Purple",
         "White",
+        "Grey"
         "" ] },
     "favorite-genre" : { "name" : "Favorite genre", "type" : "radio", 
       "values" : [ 
@@ -417,7 +430,7 @@
         "Historical",
         "Literary",
         "Action or adventure",
-        "Drama or tragedy",
+        "Drama",
         "" ] },
     "relationship-status" : { "name" : "Relationship status", "type" : "radio", 
       "values" : [ 
@@ -428,30 +441,6 @@
         "Married",
         "Divorced",
         "Widowed" ] },
-    "deadly-sin" : { "name" : "Deadly sin", "type" : "radio", 
-      "values" : [ 
-        "Pride", 
-        "Wrath", 
-        "Gluttony", 
-        "Greed",
-        "Envy",
-        "Sloth",
-        "Lust" ] },
-    "heavenly-virtue" : { "name" : "Heavenly virtue", "type" : "radio", 
-      "values" : [ 
-        "Humility", 
-        "Patience", 
-        "Temperance", 
-        "Charity",
-        "Kindness",
-        "Diligence",
-        "Chastity" ] },
-    "hogwarts-house" : { "name" : "Hogwarts house", "type" : "radio", 
-      "values" : [ 
-        "Gryffindor", 
-        "Ravenclaw", 
-        "Hufflepuff", 
-        "Slytherin" ] },
     "favorite-input" : { "name" : "Favorite input", "type" : "check-box", 
       "values" : [ 
         "Novels", 
@@ -484,8 +473,7 @@
       "values" : [ 
         "Big city", 
         "Small town", 
-        "Suburbs", 
-        "Arid desert",
+        "Suburbs",
         "Woods or rainforest",
         "Mountains",
         "Open fields",
@@ -498,9 +486,9 @@
         "Assault or arson", 
         "Manslaughter",
         "Murder or attempted murder",
-        "Rape or related",
         "Protest or activism",
         "False accusations",
+        "Drug Possession",
         "NOTHING THEY CAN PROVE",
         "" ] },
     "social-life" : { "name" : "Social life", "type" : "radio", 
